@@ -1,0 +1,26 @@
+# ==========================================
+# E-Commerce AI Insight Hub - Dependencies
+# ==========================================
+
+# 1. Core AI & Orchestration (LangChain & LangGraph)
+langchain==0.1.16
+langchain-core==0.1.45
+langgraph==0.0.38
+langchain-google-genai==1.0.3
+
+# 2. Vector Database & RAG
+chromadb==0.4.24     # Base de datos vectorial local para almacenar los embeddings
+sentence-transformers==2.7.0 # Modelos de embeddings open-source (opcional si se utiliza Gemini Embeddings directamente)
+
+# 3. Data Processing & Parquet Support
+pandas==2.2.2
+pyarrow==15.0.2      # Motor necesario para leer/escribir archivos .parquet
+numpy==1.26.4
+
+# 4. Database & Cloud (OCI)
+oci==2.125.0         # SDK oficial de Oracle Cloud Infrastructure
+oracledb==2.1.2      # Driver oficial (Thin mode) para conectar a Oracle Autonomous DB
+
+# 5. Environment & Utilities
+python-dotenv==1.0.1 # Para cargar el archivo .env
+pydantic==2.7.0      # Para validación y estructuración de datos en LangGraph
