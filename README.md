@@ -1,5 +1,7 @@
 # 📊 E-Commerce AI Insight Hub: Orquestación Multi-Agente para Decisiones de Negocio
 
+> Estado del proyecto: este repositorio se encuentra temporalmente en pausa mientras se ajustan prioridades de desarrollo y validación. La base del trabajo ya está organizada y queda disponible para continuar su evolución cuando sea pertinente.
+
 ## 📝 Descripción del Proyecto
 E-Commerce AI Insight Hub es una solución empresarial inteligente diseñada para automatizar la extracción de *insights* a partir de datos transaccionales y retroalimentación de clientes. Utilizando una arquitectura multi-agente orquestada con **LangGraph** y **Gemini**, el sistema es capaz de analizar ventas, consultar bases de datos en tiempo real mediante SQL automatizado, y aplicar técnicas de RAG avanzado sobre reseñas de clientes para identificar cuellos de botella en la logística y el nivel de satisfacción.
 
